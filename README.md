@@ -1,2 +1,1 @@
-# Sample-FortranWrapCPP
-A simple and easy way and demonstration to work with CPP code inside of Fortran95
+This code and demonstration is showing how easy it can be to work with C/C++ code inside of Fortran95. The reason I did this was to make sure that the SkyLine programming language could truly demonstrate hybrid development with C++, C, Go, Ruby, Fortran, Python, Lua, LISP and other various language's with Go being the powerhouse using C as an example with CGO which will call C++ linked to Fortran code. The CPP code in this example is run directly and called from the Fortran program which uses the `ISO_C_BINDER` mechanism in fortran to call and export the C code!
